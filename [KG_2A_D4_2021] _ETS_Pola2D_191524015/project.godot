@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Ellipse",
+"language": "GDScript",
+"path": "res://ellips_.gd"
+}, {
+"base": "shape_",
+"class": "circle",
+"language": "GDScript",
+"path": "res://LINGKARAN.gd"
+}, {
+"base": "Node2D",
+"class": "shape_",
+"language": "GDScript",
+"path": "res://Shape.gd"
+} ]
+_global_script_class_icons={
+"Ellipse": "",
+"circle": "",
+"shape_": ""
+}
+
+[application]
+
+config/name="191524015_UTS"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
